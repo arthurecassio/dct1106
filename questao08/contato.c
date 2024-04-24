@@ -6,9 +6,9 @@
 #define maxString 1024
 
 int menuConsulta(void);
-int menuPrincipal(void);
-void listarContatos(int, char *, char *, char *);
-void criarContato(char *, char *, char *);
+int menuGeral(void);
+void listarContatos(int, char*, char*, char*);
+void criarContato(char*, char*, char*);
 
 void menuContatos(void)
 {
@@ -59,4 +59,8 @@ void listarContatos(int numContatos, char *nomes, char *telefones, char *emails)
     {
         printf("[nome: %s, telefone: %s, e-mail: %s]", nomes[i], telefones[i], emails[i]);
     }
+}
+
+void criarContato(char*, char*, char*){
+    //Inserir Código
 }
