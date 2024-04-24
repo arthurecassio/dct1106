@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <validacao.h>
+#include "./validacao.h"
+
 #define totalContatos 100
 #define maxString 1024
 

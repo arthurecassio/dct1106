@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <validacao.h>
-#include <contato.h>
+#include "./validacao.h"
+#include "./contato.h"
 
 int menuPrincipal(void);
 void verificarEmail(void);
