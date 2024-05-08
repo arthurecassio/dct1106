@@ -25,6 +25,7 @@ int main(void){
     }     
     return 0;
 }
+
 int menuPrincipal(void)
 {
     int selecao;
@@ -45,4 +46,6 @@ void verificarEmail(void){
 }
 void verificarTelefone(void){   
     //Inserir Código
+    char telefone[] = {'8','4'};
+    validarTelefone(telefone);
 }

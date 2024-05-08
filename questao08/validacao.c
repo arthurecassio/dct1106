@@ -1,3 +1,5 @@
+int validarTelefone(char*);
+
 /**
  * Biblioteca para Validação de Dados 
  * **/

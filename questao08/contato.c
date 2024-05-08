@@ -16,14 +16,14 @@ void menuContatos(void)
     char nomes[totalContatos][maxString];
     char telefones[totalContatos][maxString];
     char emails[totalContatos][maxString];
-    int selecao = menuPrincipal();
+    int selecao = menuGeral();
 
     //Inserir Código
     
     return;
 }
 
-int menuPrincipal(void)
+int menuGeral(void)
 {
     int selecao;
     printf("----------------------------\n");
