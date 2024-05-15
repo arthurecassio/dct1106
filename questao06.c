@@ -14,7 +14,7 @@ int main(void)
     scanf("%d",&numItens);
     for (int i = 0; i < numItens; i++)
     {
-        leItem(&descricoes[i],&valores[i]);
+        leItem(descricoes[i],&valores[i]);
     }
     imprimeItens(numItens,descricoes,valores);
     
