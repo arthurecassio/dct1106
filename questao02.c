@@ -39,10 +39,12 @@ int eLetra(char c){
     return 0;
 };
 int eNumero(char c){
-    //Inserir código Aqui
+    if((c >= '0') && (c <= '9')){
+        return 1;
+    }
     return 0;
 };
 int eEspecial(char c){
-    //Inserir Código Aqui
+    if(!eLetra(c) && !eNumero(c)) return 1;
     return 0;
 };

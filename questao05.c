@@ -9,23 +9,23 @@ int opcao02(void);
 int main(void)
 {
     int selecao;
-    // Incluir Código para Repetição
+    do{
     selecao = menuPrincipal();
-    switch (selecao)
-    {
-    case 1:
-        opcao01();
-        break;
-    case 2:
-        opcao02();
-        break;
-    case 3:
-        return 0;
-        break;
-    default:
-        printf("A opção indicada: %d é inválida!", selecao);
-        break;
-    }
+        switch (selecao)
+        {
+        case 1:
+            opcao01();
+            break;
+        case 2:
+            opcao02();
+            break;
+        case 3:
+            return 0;
+            break;
+        default:
+            printf("A opção indicada: %d é inválida!", selecao);
+            break;
+    }}while(selecao != 0);
 
     return 0;
 }
@@ -62,8 +62,18 @@ int opcao01(void)
 }
 int opcao02(void)
 {
-    // Inserir o Código aqui.
-    return 0;
+    char c;
+    printf("-----------------------------\n");
+    printf("-- Verificação de Número -----\n");
+    printf("-----------------------------\n");
+    printf("Informe o caracter desejado:\n");
+    scanf(" %c", &c);
+    if(eNumero(c)){
+        printf("O caracter %c é um número.\n",c);
+        return 1;
+    }else{
+        return 0;
+    }
 }
 
 int eLetra(char c)
@@ -80,6 +90,8 @@ int eLetra(char c)
 };
 int eNumero(char c)
 {
-    // Inserir código Aqui
-    return 0;
+    if((c >= '0') && (c <= '9')){
+        return 1;
+    }
+    return 0;   
 };
