@@ -50,3 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+aula10-arquivos/alunos.dat
+aula10-arquivos/aluno-arquivo-binario
