@@ -1,5 +1,5 @@
 /**
- * Programa para manipulação CRUD (Create, Read, Update and Delete) do Aluno em Arquivo Binário.
+ * Atualizando Programa para manipulação CRUD (Create, Read, Update and Delete) do Aluno em Arquivo Binário.
  * Structs para Aluno. O programa simula um módulo de Controle de Cadastro de Alunos.
  */
 
