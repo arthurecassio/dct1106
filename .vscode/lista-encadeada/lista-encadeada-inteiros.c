@@ -94,13 +94,15 @@ void inserirInteiro(int novoValor, No **inicio)
     // Atualiza o inicio da lista para o nó recém criado
     (*inicio) = novo;    
 }
+
 void exibeLista(No *inicio)
 {
     // Percorendo a lista para imprimir
     No *tmp;
     for (tmp = inicio; tmp != NULL; tmp = tmp->proximo)
     {
-        printf("%d-> ", tmp->valor);
+        printf("->%d", tmp->valor);
     }
     printf("\n");
 }
+
